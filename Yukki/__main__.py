@@ -235,12 +235,12 @@ A Telegram Music+Video Streaming bot with some useful features.
 All commands can be used with: / """
 
 
-@app.on_message(filters.command(["help", f"help@{BOT_USERNAME}"]) & filters.private)
+@app.on_message(filters.command(["hmnotgonnaworkgay", f"help@{BOT_USERNAME}"]) & filters.private)
 async def help_command(_, message):
     await start_menu_private(message)
 
 
-@app.on_message(filters.command(["start", f"start@{BOT_USERNAME}"]) & filters.private)
+@app.on_message(filters.command(["gayyuuuuuuuu", f"start@{BOT_USERNAME}"]) & filters.private)
 async def start_command(_, message):
     if len(message.text.split()) > 1:
         name = (message.text.split(None, 1)[1]).lower()
